@@ -116,16 +116,6 @@ public class AsyncMsgIntegration {
                 .get();
     }
 
-//    @Bean
-//    public RequestHandlerRetryAdvice retryAdvice() {
-//        RequestHandlerRetryAdvice retryAdvice = new RequestHandlerRetryAdvice();
-//
-//        RetryTemplate retryTemplate = new RetryTemplate();
-//        retryTemplate.setRetryPolicy(new SimpleRetryPolicy(3)); // 重试3次
-//        retryTemplate.setBackOffPolicy(new FixedBackOffPolicy().withSleeper(new SleepingBackOffPolicy<>())); // 每次重试之间延迟1000毫秒
-//
-//        retryAdvice.setRetryTemplate(retryTemplate);
-//        return retryAdvice;
-//    }
+
 
 }
